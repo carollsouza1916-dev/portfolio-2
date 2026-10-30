@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional de Ana Caroline, estudante de desenvolvimento web.">
+    <title>Ana Caroline | Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Menu principal">
+            <a href="#inicio" class="logo">Ana<span>.</span></a>
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu">
+                ☰
+            </button>
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button
+                class="tema-toggle"
+                id="tema-toggle"
+                type="button"
+                aria-label="Ativar modo escuro">
+                🌙
+            </button>
+        </nav>
+    </header>
+    <main>
+        <!-- INÍCIO -->
+        <section class="inicio" id="inicio">
+            <div class="inicio-texto">
+                <p class="destaque" id="saudacao">
+                    Olá! Seja bem-vindo(a)!
+                </p>
+                <h1>Meu nome é <span>Ana Caroline</span></h1>
+                <h2>Estudante de tecnologia e desenvolvedora web em formação.</h2>
+                <p>
+                    Estou aprendendo a transformar ideias em sites criativos,
+                    organizados e responsivos. Aqui você pode conhecer um pouco
+                    sobre mim, minhas habilidades e os projetos que desenvolvi
+                    durante o curso.
+                </p>
+                <a href="#projetos" class="botao">
+                    Conheça meus projetos
+                </a>
+            </div>
+            <div class="avatar" aria-label="Avatar com as iniciais de Ana Caroline">
+                <img src="IMG/perfil.jpeg" alt="Foto de perfil de Ana Caroline">
+            </div>
+        </section>
+        <!-- SOBRE MIM -->
+        <section class="secao" id="sobre">
+            <p class="destaque">CONHEÇA UM POUCO SOBRE MIM</p>
+            <h2 class="titulo">Sobre mim</h2>
+            <p class="texto-secao">
+                Meu nome é Ana Caroline, tenho 16 anos e estou cursando a 1ª série do Ensino Médio Técnico em Informática no Senac. Tenho interesse na área de tecnologia e gosto de aprender coisas novas, principalmente sobre desenvolvimento de sites.
+
+Durante o curso, desenvolvi projetos como um site de pet shop, um studio de fotos e um site de viagens colocando em prática meus conhecimentos em HTML e CSS. Meu objetivo é continuar aprimorando minhas habilidades, aprender mais sobre JavaScript e conquistar uma oportunidade de estágio na área de tecnologia.
+            </p>
+            <p class="texto-secao">
+                Meu objetivo é continuar aprendendo, desenvolver projetos
+                cada vez melhores e conquistar uma oportunidade de estágio
+                na área de tecnologia.
+            </p>
+        </section>
+        <!-- HABILIDADES -->
+        <section class="secao fundo" id="habilidades">
+            <p class="destaque">TECNOLOGIAS</p>
+            <h2 class="titulo">Minhas habilidades</h2>
+            <p class="texto-secao">
+                Estas são algumas das tecnologias e habilidades que estou
+                desenvolvendo durante o curso.
+            </p>
+            <div class="habilidades">
+                <article class="card-habilidade">
+                    <span class="icone">&lt;/&gt;</span>
+                    <h3>HTML5</h3>
+                    <p>
+                        Utilizado para estruturar o conteúdo das páginas web.
+                    </p>
+                </article>
+                <article class="card-habilidade">
+                    <span class="icone">✳</span>
+                    <h3>CSS3</h3>
+                    <p>
+                        Utilizado para estilizar os sites e deixá-los
+                        visualmente organizados.
+                    </p>
+                </article>
+                <article class="card-habilidade">
+                    <span class="icone">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>
+                        Utilizado para adicionar interatividade e
+                        funcionalidades aos sites.
+                    </p>
+                </article>
+                <article class="card-habilidade">
+                    <span class="icone">▣</span>
+                    <h3>Responsividade</h3>
+                    <p>
+                        Organização das páginas para diferentes tamanhos
+                        de tela.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <!-- PROJETOS -->
+        <section class="secao" id="projetos">
+            <p class="destaque">MEUS TRABALHOS</p>
+            <h2 class="titulo">Projetos desenvolvidos</h2>
+            <p class="texto-secao">
+                Conheça três projetos que desenvolvi durante o curso.
+            </p>
+            <div class="projetos">
+                <article class="card-projeto">
+                    <div class="imagem-projeto pet">
+                        🐾
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>Site de Pet Shop</h3>
+                        <p>
+                            Projeto de um site para uma loja de produtos
+                            e cuidados para animais de estimação.
+                        </p>
+                        <div class="etiquetas">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card-projeto">
+                    <div class="imagem-projeto fotografia">
+                        📸
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>Site de Studio de Fotos</h3>
+                        <p>
+                            Projeto de um site para apresentar os serviços
+                            e o trabalho de um estúdio fotográfico.
+                        </p>
+                        <div class="etiquetas">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="card-projeto">
+                    <div class="imagem-projeto cinema">
+                        🎬
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>Site de Cinema</h3>
+                        <p>
+                            Projeto de um site temático para apresentar
+                            informações relacionadas ao cinema e aos filmes.
+                        </p>
+                        <div class="etiquetas">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- CONTATO -->
+        <section class="secao fundo" id="contato">
+            <p class="destaque">VAMOS CONVERSAR?</p>
+            <h2 class="titulo">Entre em contato</h2>
+            <p class="texto-secao">
+                Preencha o formulário abaixo para demonstrar como funciona
+                a validação de dados com JavaScript.
+            </p>
+            <form id="form-contato" class="formulario" novalidate>
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        autocomplete="name"
+                        maxlength="80"
+                        required>
+                    <small id="erro-nome" class="erro"></small>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        maxlength="120"
+                        required>
+                    <small id="erro-email" class="erro"></small>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="5"
+                        maxlength="1000"
+                        required></textarea>
+                    <small id="erro-mensagem" class="erro"></small>
+                </div>
+                <label class="consentimento">
+                    <input type="checkbox" id="consentimento" required>
+                    <span>
+                        Concordo em utilizar os dados informados apenas
+                        para responder a esta mensagem.
+                    </span>
+                </label>
+                <small id="erro-consentimento" class="erro"></small>
+                <button type="submit" class="botao">
+                    Validar formulário
+                </button>
+                <p id="retorno-formulario" role="status" aria-live="polite"></p>
+                <p class="aviso">
+                    Este é um formulário demonstrativo. Os dados não são
+                    enviados nem armazenados.
+                </p>
+            </form>
+        </section>
+    </main>
+    <!-- RODAPÉ -->
+    <footer>
+        <p>
+            &copy; <span id="ano"></span> Ana Caroline.
+            Todos os direitos reservados.
+        </p>
+        <a href="#inicio">Voltar ao topo ↑</a>
+    </footer>
+</body>
+</html>
